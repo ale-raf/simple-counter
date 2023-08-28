@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.counter {
+  margin: 5rem 0;
+  font-size: 2.5rem;
+  color: #222;
+}
+.count {
+  font-size: 5rem;
+  color: #222;
+}
+.btn-container {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.btn {
+  margin: 5rem 2rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border: 2px solid #222;
+  border-radius: 5px;
+  background-color: transparent;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
